@@ -1,0 +1,30 @@
+{
+  "name": "blacken-slash-website",
+  "version": "1.0.0",
+  "description": "A turn based hack and slash game.",
+  "author": "ehmprah",
+  "private": true,
+  "scripts": {
+    "serve": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "nuxt": "^2.15.8"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^1.0.1",
+    "@nuxtjs/eslint-module": "^1.2.0",
+    "@nuxtjs/google-analytics": "^2.4.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-nuxt": "^0.5.2",
+    "eslint-plugin-prettier": "^3.4.1",
+    "node-sass": "^4.14.1",
+    "prettier": "^1.16.4",
+    "sass-loader": "^8.0.2"
+  }
+}
