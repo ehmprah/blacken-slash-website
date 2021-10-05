@@ -1,32 +1,33 @@
 <template>
   <ul class="buy">
     <li>
-      <a href="https://store.steampowered.com/app/1203360/Core_Defense/">
-        <img src="/badges/steam.png" alt="Buy Core Defense on Steam" />
+      <a href="https://store.steampowered.com/app/1746560/Blacken_Slash/">
+        <img src="/badges/steam.png" alt="Wishlist Blacken Slash on Steam" />
       </a>
     </li>
     <li>
-      <a
-        href="https://play.google.com/store/apps/details?id=com.ehmprah.coredefense"
-      >
+      <a href="#" class="disabled">
         <img
           src="/badges/google-play.png"
-          alt="Get Core Defense on Google Play"
+          alt="Get Blacken Slash on Google Play"
         />
       </a>
+      <div>soon&trade;</div>
     </li>
     <li>
-      <a href="https://apps.apple.com/us/app/core-defense/id1546364145">
+      <a href="#" class="disabled">
         <img
           src="/badges/app-store.png"
-          alt="Get Core Defense on the App Store"
+          alt="Get Blacken Slash on the App Store"
         />
       </a>
+      <div>soon&trade;</div>
     </li>
     <li>
-      <a href="https://ehmprah.itch.io/core-defense">
-        <img src="/badges/itchio.png" alt="Buy Core Defense on itch.io" />
+      <a href="#" class="disabled">
+        <img src="/badges/itchio.png" alt="Buy Blacken Slash on itch.io" />
       </a>
+      <div>soon&trade;</div>
     </li>
   </ul>
 </template>
@@ -43,10 +44,10 @@ ul.buy {
   max-width: 700px;
   padding: 0;
   list-style-type: none;
-  display: flex;
-  justify-content: center;
+
   li {
-    margin: 0 0.5em;
+    max-width: 200px;
+    margin: 0 auto 20px auto;
     a {
       display: block;
       border-bottom: none;
@@ -54,9 +55,24 @@ ul.buy {
       &:hover {
         transform: scale(1.05);
       }
+      &.disabled {
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.35;
+      }
     }
     img {
       display: block;
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  ul.buy {
+    display: flex;
+    justify-content: center;
+    li {
+      margin: 0 0.5em;
     }
   }
 }

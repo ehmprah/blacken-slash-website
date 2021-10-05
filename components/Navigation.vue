@@ -21,8 +21,15 @@ ul.navigation {
   list-style-type: none;
   text-align: center;
   li {
-    display: inline;
     margin: 0.5em;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  ul.navigation {
+    li {
+      display: inline;
+    }
   }
 }
 </style>

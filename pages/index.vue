@@ -15,18 +15,7 @@
 
       <Buy />
 
-      <div class="trailer">
-        <div class="iframe-container">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube-nocookie.com/embed/47SFM1lvpq4"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
-      </div>
+      <Trailer />
 
       <div class="screenshots">
         <h2>Screenshots</h2>
@@ -65,6 +54,7 @@ import Follow from '~/components/Follow.vue';
 import Navigation from '~/components/Navigation.vue';
 import QuickFacts from '~/components/QuickFacts.vue';
 import Screenshot from '~/components/Screenshot.vue';
+import Trailer from '~/components/Trailer.vue';
 
 export default {
   components: {
@@ -72,11 +62,12 @@ export default {
     Follow,
     Navigation,
     QuickFacts,
-    Screenshot
+    Screenshot,
+    Trailer
   },
   head() {
     return {
-      title: 'Core Defense'
+      title: 'Blacken Slash'
     };
   }
 };
@@ -84,6 +75,7 @@ export default {
 
 <style lang="scss">
 .logo {
+  width: 100%;
   max-width: 512px;
   margin-top: 40px;
 }
@@ -100,28 +92,6 @@ export default {
   &__description {
     text-align: justify;
     margin: 1em 0;
-  }
-}
-
-.trailer {
-  max-width: 720px;
-  margin: 0 auto;
-}
-
-.iframe-container {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  padding-top: 56.25%;
-
-  iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
   }
 }
 

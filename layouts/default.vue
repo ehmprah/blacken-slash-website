@@ -115,7 +115,7 @@ a:hover {
   text-decoration: none;
   transition: all 0.2s;
   border-bottom: 1px solid;
-  color: #26a7ce;
+  color: #40b019;
 }
 
 a:hover {
@@ -132,7 +132,8 @@ h2 {
   font-size: 2em;
   text-transform: uppercase;
   margin-bottom: 1em;
-  color: #999;
+  color: #40b019;
+  text-shadow: 4px 4px 0 #000;
 }
 
 ul.list {
