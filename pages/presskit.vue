@@ -116,7 +116,8 @@
         <h2>Links</h2>
         <ul class="list-inline">
           <li>
-            <a href="https://store.steampowered.com/app/1746560/Blacken_Slash/"
+            <a
+              href="https://store.steampowered.com/app/1746560?utm_source=presskit"
               >Steam</a
             >
           </li>

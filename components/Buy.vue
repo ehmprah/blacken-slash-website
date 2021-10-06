@@ -1,7 +1,7 @@
 <template>
   <ul class="buy">
     <li>
-      <a href="https://store.steampowered.com/app/1746560/Blacken_Slash/">
+      <a href="https://store.steampowered.com/app/1746560?utm_source=website">
         <img src="/badges/steam.png" alt="Wishlist Blacken Slash on Steam" />
       </a>
     </li>
