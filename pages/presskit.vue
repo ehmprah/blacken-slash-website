@@ -130,16 +130,17 @@
         </ul>
       </div>
 
-      <!-- <div class="section">
+      <div class="section">
         <h2>Mentions</h2>
         <p>
-          "INSERT QUOTE"<br />– INSERT AUTHOR,
+          "I really liked what ehmprah did with Core Defense, and I am a fan of
+          distilling design down to its core and this looks really tight."<br />–
           <a
-            href="#"
-            >Publication</a
+            href="https://twitter.com/TheStrategyInf1/status/1446270183350362119"
+            >The Strategy Informer</a
           >
         </p>
-      </div> -->
+      </div>
 
       <div class="section">
         <h2>Contact</h2>
