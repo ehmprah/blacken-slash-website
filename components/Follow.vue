@@ -80,7 +80,7 @@ ul.follow {
     svg {
       height: 100%;
       width: 65%;
-      fill: #40b019;
+      fill: #ff1690;
       margin: 0 auto;
       display: block;
     }

@@ -99,7 +99,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  background: #222;
+  background: linear-gradient(45deg, #070b11, #0f1a27);
   color: #dbdbdb;
 }
 
@@ -115,7 +115,7 @@ a:hover {
   text-decoration: none;
   transition: all 0.2s;
   border-bottom: 1px solid;
-  color: #40b019;
+  color: #ff1690;
 }
 
 a:hover {
@@ -132,7 +132,7 @@ h2 {
   font-size: 2em;
   text-transform: uppercase;
   margin-bottom: 1em;
-  color: #40b019;
+  color: #f3c05e;
   text-shadow: 4px 4px 0 #000;
 }
 

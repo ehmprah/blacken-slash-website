@@ -1,7 +1,9 @@
 <template>
   <div class="container">
     <div>
-      <h1 class="title">PRESSKIT "Blacken Slash"</h1>
+      <img class="logo" src="/logo.svg" alt="Blacken Slash Logo" />
+
+      <h1 class="title">PRESSKIT</h1>
 
       <div class="text">
         <h2>History</h2>
@@ -101,9 +103,9 @@
         <h2>Logos</h2>
         <p><a href="/logo/blacken_slash_logos.zip">Download as .zip</a></p>
         <div class="logos__container">
-          <img class="logo" src="/logo/logo_background.png" />
-          <img class="logo" src="/logo/logo_plain.png" />
-          <img class="logo" src="/logo/logo_transparent.png" />
+          <img class="logo" src="/logo/steam_library_capsule.png" />
+          <img class="logo" src="/logo/steam_capsule_main.png" />
+          <img class="logo" src="/logo/steam_library_logo.png" />
         </div>
       </div>
 
@@ -176,10 +178,16 @@ export default {
 </script>
 
 <style lang="scss">
+.logo {
+  width: 100%;
+  max-width: 512px;
+  margin-top: 40px;
+}
+
 .title {
-  margin-top: 2em;
+  margin: 1em;
   line-height: 1.5em;
-  font-size: 2em;
+  font-size: 3em;
 }
 
 .text {
@@ -214,6 +222,7 @@ export default {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     .logo {
       display: block;
       margin: 1em auto;
