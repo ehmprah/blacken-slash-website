@@ -93,9 +93,6 @@
           <Screenshot url="/gifs/04.gif" />
           <Screenshot url="/gifs/05.gif" />
           <Screenshot url="/gifs/06.gif" />
-          <Screenshot url="/gifs/07.gif" />
-          <Screenshot url="/gifs/08.gif" />
-          <Screenshot url="/gifs/09.gif" />
         </div>
       </div>
 
