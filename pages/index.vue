@@ -5,11 +5,10 @@
 
       <div class="about">
         <div class="about__description">
-          The minimalist love child of turn based tactical and hack, slash and
-          loot games. Fight, loot, repeat until you die. Perfect your gear
-          across dozens of runs or compete in an online leaderboard where you
-          start from scratch each week. A simple but deep, difficult and highly
-          replayable game.
+          Return the rogue colors to the prismatic fold! Fight, loot, improve
+          your gear, repeat. Hack and slash meets turn based tactics, seasoned
+          with roguelite elements and distilled until there's nothing but fun
+          left. Difficult and highly replayable.
         </div>
       </div>
 

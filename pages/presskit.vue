@@ -139,6 +139,10 @@
             >The Strategy Informer</a
           >
         </p>
+        <p>
+          "Honestly I think that there's a lot of promise here"<br />–
+          <a href="https://www.youtube.com/watch?v=cNz7Mc1ekJc">Retromation</a>
+        </p>
       </div>
 
       <div class="section">
