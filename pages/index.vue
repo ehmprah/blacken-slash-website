@@ -1,7 +1,11 @@
 <template>
   <div class="container">
     <div>
-      <img class="logo" src="/logo.svg" alt="Blacken Slash Logo" />
+      <img
+        class="logo"
+        src="/logo/steam_library_logo.png"
+        alt="Blacken Slash Logo"
+      />
 
       <div class="about">
         <div class="about__description">
