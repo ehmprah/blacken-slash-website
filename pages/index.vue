@@ -16,6 +16,12 @@
         </div>
       </div>
 
+      <div>
+        <a href="https://discord.gg/y9hjQndJS2" class="demo">
+          Try the Alpha Demo via Discord!
+        </a>
+      </div>
+
       <Buy />
 
       <Trailer />
@@ -81,6 +87,11 @@ export default {
   width: 100%;
   max-width: 512px;
   margin-top: 40px;
+}
+
+.demo {
+  font-family: 'Wendy One', sans-serif;
+  font-size: 24px;
 }
 
 .about {
