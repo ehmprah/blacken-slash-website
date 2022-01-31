@@ -1,8 +1,21 @@
 <template>
   <ul class="list facts">
     <li>Platforms: Windows, Mac, Linux, Android, iOS</li>
-    <li>Release on itch.io (Early Access): Q1/2022</li>
-    <li>Release on Steam, App Store, Play Store: Q3/2022</li>
+    <li>
+      Demo now available via
+      <a href="https://store.steampowered.com/app/1746560?utm_source=website"
+        >Steam</a
+      >,
+      <a
+        href="https://play.google.com/store/apps/details?id=com.ehmprah.blackenslash.demo"
+        >Play Store</a
+      >,
+      <a href="https://apps.apple.com/app/blacken-slash-lite/id1605374559"
+        >App Store</a
+      >
+    </li>
+    <li>March 22, 2022: Early Access via itch.io</li>
+    <li>July 22, 2022: Release on Steam, iOS and Android</li>
     <li>
       Developed by Berlin-based solo indie dev
       <a href="https://twitter.com/ehmprah">ehmprah</a>

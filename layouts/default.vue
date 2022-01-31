@@ -149,6 +149,18 @@ ul.list-inline {
   }
 }
 
+ul.list-flex {
+  list-style-type: circle;
+  display: flex;
+  flex-wrap: wrap;
+  li {
+    flex: 1 0 100%;
+    width: 100%;
+    max-width: 240px;
+    text-align: left;
+  }
+}
+
 .container {
   margin: 0 auto;
   min-height: 100vh;

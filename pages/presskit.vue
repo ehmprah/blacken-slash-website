@@ -111,26 +111,43 @@
       </div>
 
       <div class="section">
-        <h2>Quick Facts</h2>
+        <h2>Facts</h2>
         <QuickFacts />
       </div>
 
       <div class="section">
         <h2>Links</h2>
-        <ul class="list-inline">
-          <li>
-            <a
-              href="https://store.steampowered.com/app/1746560?utm_source=presskit"
-              >Steam</a
-            >
-          </li>
-          <li>
-            <a href="https://discord.gg/y9hjQndJS2">Discord</a>
-          </li>
-          <li>
-            <a href="https://twitter.com/ehmprah">Twitter</a>
-          </li>
-        </ul>
+        <div>
+          <a
+            href="https://store.steampowered.com/app/1746560?utm_source=presskit"
+            >Steam</a
+          >
+        </div>
+
+        <div>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.ehmprah.blackenslash.demo"
+            >Play Store (Demo)</a
+          >
+        </div>
+
+        <div>
+          <a href="https://apps.apple.com/app/blacken-slash/id1604646442"
+            >App Store</a
+          >
+          +
+          <a href="https://apps.apple.com/app/blacken-slash-lite/id1605374559"
+            >App Store (Demo)</a
+          >
+        </div>
+
+        <div>
+          <a href="https://blackenslash.ehmprah.com/">Website</a>
+          +
+          <a href="https://discord.gg/y9hjQndJS2">Discord</a>
+          +
+          <a href="https://twitter.com/ehmprah">Twitter</a>
+        </div>
       </div>
 
       <div class="section">

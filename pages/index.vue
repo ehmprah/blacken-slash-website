@@ -9,22 +9,20 @@
 
       <div class="about">
         <div class="about__description">
-          Return the rogue colors to the prismatic fold! Fight, loot, improve
-          your gear, repeat. Hack and slash meets turn based tactics, seasoned
-          with roguelite elements and distilled until there's nothing but fun
-          left. Difficult and highly replayable.
+          Tackle challenging turn-based combat and let it rain tons of loot in
+          this refined retro-minimalist roguelite. Difficult, great soundtrack,
+          high replay value.
         </div>
-      </div>
-
-      <div>
-        <a href="https://discord.gg/y9hjQndJS2" class="demo">
-          Try the Alpha Demo via Discord!
-        </a>
       </div>
 
       <Buy />
 
       <Trailer />
+
+      <div class="section">
+        <h2>Facts</h2>
+        <QuickFacts />
+      </div>
 
       <div class="screenshots">
         <h2>Screenshots</h2>
@@ -43,11 +41,6 @@
       <div class="section">
         <h2>Follow</h2>
         <Follow />
-      </div>
-
-      <div class="section">
-        <h2>Quick Facts</h2>
-        <QuickFacts />
       </div>
 
       <div class="footer">
@@ -106,6 +99,7 @@ export default {
   &__description {
     text-align: justify;
     margin: 1em 0;
+    font-weight: bold;
   }
 }
 

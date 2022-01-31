@@ -1,33 +1,53 @@
 <template>
   <ul class="buy">
     <li>
-      <a href="https://store.steampowered.com/app/1746560?utm_source=website">
+      <a
+        class="badge"
+        href="https://store.steampowered.com/app/1746560?utm_source=website"
+      >
         <img src="/badges/steam.png" alt="Wishlist Blacken Slash on Steam" />
       </a>
+      <div class="mt">
+        ▲ Demo ▲
+      </div>
     </li>
     <li>
-      <a href="#" class="disabled">
-        <img
-          src="/badges/google-play.png"
-          alt="Get Blacken Slash on Google Play"
-        />
-      </a>
-      <div>soon&trade;</div>
-    </li>
-    <li>
-      <a href="#" class="disabled">
+      <a
+        class="badge"
+        href="https://apps.apple.com/app/blacken-slash/id1604646442"
+      >
         <img
           src="/badges/app-store.png"
           alt="Get Blacken Slash on the App Store"
         />
       </a>
-      <div>soon&trade;</div>
+      <div class="mt">
+        <a href="https://apps.apple.com/app/blacken-slash-lite/id1605374559"
+          >Demo</a
+        >
+      </div>
     </li>
     <li>
-      <a href="#" class="disabled">
+      <a
+        class="badge disabled"
+        href="https://play.google.com/store/apps/details?id=com.ehmprah.blackenslash"
+      >
+        <img
+          src="/badges/google-play.png"
+          alt="Get Blacken Slash on Google Play"
+        />
+      </a>
+      <div class="mt">
+        <a
+          href="https://play.google.com/store/apps/details?id=com.ehmprah.blackenslash.demo"
+          >Demo</a
+        >
+      </div>
+    </li>
+    <li>
+      <a class="badge disabled" href="https://ehmprah.itch.io/blacken-slash">
         <img src="/badges/itchio.png" alt="Buy Blacken Slash on itch.io" />
       </a>
-      <div>soon&trade;</div>
     </li>
   </ul>
 </template>
@@ -48,7 +68,7 @@ ul.buy {
   li {
     max-width: 200px;
     margin: 0 auto 20px auto;
-    a {
+    a.badge {
       display: block;
       border-bottom: none;
       transition: all 0.1s;
@@ -63,6 +83,9 @@ ul.buy {
     }
     img {
       display: block;
+    }
+    .mt {
+      margin-top: 5px;
     }
   }
 }
