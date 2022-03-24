@@ -1,12 +1,6 @@
 <template>
   <div class="container">
     <div>
-      <img
-        class="logo"
-        src="/logo/steam_library_logo.png"
-        alt="Blacken Slash Logo"
-      />
-
       <h1 class="title">PRESSKIT</h1>
 
       <div class="text">
@@ -52,12 +46,11 @@
         <h2>Description</h2>
         <div class="text__description">
           Blacken Slash fuses tactical turn-based combat and fast-paced hack,
-          slash and loot gameplay – and takes only the best out of both genres
-          to create a simple, but endlessly rewarding gameplay experience where
-          you fight, loot and repeat until you die. Play on your own and perfect
-          your gear across dozens of runs and see which difficulty you can
-          master – or compete with other players in an online leaderboard where
-          you start from scratch each week.
+          slash and loot gameplay, sprinkled with roguelite elements and
+          enticing progression mechanics. Explore the story, play on your own
+          and perfect your gear across dozens of runs and see which difficulty
+          you can master – or compete with other players in an online ladder
+          where you start from scratch each week.
         </div>
         <ul class="list">
           <li>Minimalist – easy to learn</li>
@@ -87,25 +80,13 @@
         </div>
       </div>
 
-      <div class="screenshots screenshots--gif">
-        <h2>GIFs</h2>
-        <p><a href="/gifs/blacken_slash_gifs.zip">Download as .zip</a></p>
-        <div class="screenshots__container">
-          <Screenshot url="/gifs/01.gif" />
-          <Screenshot url="/gifs/02.gif" />
-          <Screenshot url="/gifs/03.gif" />
-          <Screenshot url="/gifs/04.gif" />
-          <Screenshot url="/gifs/05.gif" />
-          <Screenshot url="/gifs/06.gif" />
-        </div>
-      </div>
-
       <div class="logos">
         <h2>Logos</h2>
         <p><a href="/logo/blacken_slash_logos.zip">Download as .zip</a></p>
         <div class="logos__container">
-          <img class="logo" src="/logo/steam_library_capsule.png" />
+          <img class="logo" src="/logo/steam_vertical_capsule.png" />
           <img class="logo" src="/logo/steam_capsule_main.png" />
+          <img class="logo" src="/logo/steam_capsule_header.png" />
           <img class="logo" src="/logo/steam_library_logo.png" />
         </div>
       </div>
@@ -117,37 +98,33 @@
 
       <div class="section">
         <h2>Links</h2>
-        <div>
-          <a
-            href="https://store.steampowered.com/app/1746560?utm_source=presskit"
-            >Steam</a
-          >
-        </div>
-
-        <div>
-          <a
-            href="https://play.google.com/store/apps/details?id=com.ehmprah.blackenslash.demo"
-            >Play Store (Demo)</a
-          >
-        </div>
-
-        <div>
-          <a href="https://apps.apple.com/app/blacken-slash/id1604646442"
-            >App Store</a
-          >
-          +
-          <a href="https://apps.apple.com/app/blacken-slash-lite/id1605374559"
-            >App Store (Demo)</a
-          >
-        </div>
-
-        <div>
-          <a href="https://blackenslash.ehmprah.com/">Website</a>
-          +
-          <a href="https://discord.gg/y9hjQndJS2">Discord</a>
-          +
-          <a href="https://twitter.com/ehmprah">Twitter</a>
-        </div>
+        <ul class="list links">
+          <li>
+            <a
+              href="https://store.steampowered.com/app/1746560?utm_source=presskit"
+              >Steam</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.ehmprah.blackenslash.demo"
+              >Play Store (Demo)</a
+            >
+          </li>
+          <li>
+            <a href="https://apps.apple.com/app/blacken-slash/id1604646442"
+              >App Store</a
+            >
+          </li>
+          <li>
+            <a href="https://apps.apple.com/app/blacken-slash-lite/id1605374559"
+              >App Store (Demo)</a
+            >
+          </li>
+          <li><a href="https://blackenslash.ehmprah.com/">Website</a></li>
+          <li><a href="https://discord.gg/y9hjQndJS2">Discord</a></li>
+          <li><a href="https://twitter.com/ehmprah">Twitter</a></li>
+        </ul>
       </div>
 
       <div class="section">
@@ -164,29 +141,27 @@
           "Honestly I think that there's a lot of promise here"<br />–
           <a href="https://www.youtube.com/watch?v=cNz7Mc1ekJc">Retromation</a>
         </p>
+        <p>
+          "It's so satisfying."<br />–
+          <a href="https://youtu.be/h4lbmour2Lo?t=1651">Olexa</a>
+        </p>
       </div>
 
       <div class="section">
         <h2>Contact</h2>
         Send a mail to <a href="mailto:ehmprah@gmail.com">ehmprah@gmail.com</a>
       </div>
-
-      <div class="footer">
-        <Navigation />
-      </div>
     </div>
   </div>
 </template>
 
 <script>
-import Navigation from '~/components/Navigation.vue';
 import QuickFacts from '~/components/QuickFacts.vue';
 import Screenshot from '~/components/Screenshot.vue';
 import Trailer from '~/components/Trailer.vue';
 
 export default {
   components: {
-    Navigation,
     QuickFacts,
     Screenshot,
     Trailer
@@ -200,14 +175,8 @@ export default {
 </script>
 
 <style lang="scss">
-.logo {
-  width: 100%;
-  max-width: 512px;
-  margin-top: 40px;
-}
-
 .title {
-  margin: 1em;
+  margin: 0 0 1em;
   line-height: 1.5em;
   font-size: 3em;
 }
@@ -215,7 +184,7 @@ export default {
 .text {
   width: 80vw;
   max-width: 640px;
-  margin: 0 auto 80px auto;
+  margin: 0 auto 50px auto;
   &__description {
     text-align: left;
     margin: 1em 0;
@@ -248,10 +217,15 @@ export default {
     .logo {
       display: block;
       margin: 1em auto;
-      max-width: 240px;
+      max-width: 180px;
       height: auto;
     }
   }
+}
+
+.links {
+  max-width: 480px;
+  margin: 0 auto;
 }
 
 .section {

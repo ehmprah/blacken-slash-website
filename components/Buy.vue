@@ -7,45 +7,31 @@
       >
         <img src="/badges/steam.png" alt="Wishlist Blacken Slash on Steam" />
       </a>
-      <div class="mt">
-        ▲ Demo ▲
-      </div>
     </li>
     <li>
       <a
         class="badge"
-        href="https://apps.apple.com/app/blacken-slash/id1604646442"
+        href="https://apps.apple.com/app/blacken-slash-lite/id1605374559"
       >
         <img
           src="/badges/app-store.png"
           alt="Get Blacken Slash on the App Store"
         />
       </a>
-      <div class="mt">
-        <a href="https://apps.apple.com/app/blacken-slash-lite/id1605374559"
-          >Demo</a
-        >
-      </div>
     </li>
     <li>
       <a
-        class="badge disabled"
-        href="https://play.google.com/store/apps/details?id=com.ehmprah.blackenslash"
+        class="badge"
+        href="https://play.google.com/store/apps/details?id=com.ehmprah.blackenslash.demo"
       >
         <img
           src="/badges/google-play.png"
           alt="Get Blacken Slash on Google Play"
         />
       </a>
-      <div class="mt">
-        <a
-          href="https://play.google.com/store/apps/details?id=com.ehmprah.blackenslash.demo"
-          >Demo</a
-        >
-      </div>
     </li>
     <li>
-      <a class="badge disabled" href="https://ehmprah.itch.io/blacken-slash">
+      <a class="badge" href="https://ehmprah.itch.io/blacken-slash">
         <img src="/badges/itchio.png" alt="Buy Blacken Slash on itch.io" />
       </a>
     </li>

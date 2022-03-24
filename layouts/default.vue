@@ -1,8 +1,28 @@
 <template>
-  <div>
-    <nuxt />
+  <div class="container">
+    <div>
+      <a href="/" class="logo">
+        <img src="/logo/steam_library_logo.png" alt="Blacken Slash Logo" />
+      </a>
+
+      <Nuxt />
+
+      <div class="footer">
+        <Navigation />
+      </div>
+    </div>
   </div>
 </template>
+
+<script>
+import Navigation from '~/components/Navigation.vue';
+
+export default {
+  components: {
+    Navigation
+  }
+};
+</script>
 
 <style lang="scss">
 html,
@@ -89,9 +109,8 @@ th {
 }
 
 html {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
-    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-  font-size: 18px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
   line-height: 1.5em;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -100,7 +119,7 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   background: linear-gradient(45deg, #070b11, #0f1a27);
-  color: #dbdbdb;
+  color: #aaa;
 }
 
 *,
@@ -128,7 +147,7 @@ p {
 
 h1,
 h2 {
-  font-family: 'Wendy One', sans-serif;
+  // font-family: 'Wendy One', sans-serif;
   font-size: 2em;
   text-transform: uppercase;
   margin-bottom: 1em;
@@ -168,5 +187,13 @@ ul.list-flex {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.logo {
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+  border: none !important;
 }
 </style>

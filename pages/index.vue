@@ -1,50 +1,33 @@
 <template>
-  <div class="container">
-    <div>
-      <img
-        class="logo"
-        src="/logo/steam_library_logo.png"
-        alt="Blacken Slash Logo"
-      />
+  <div>
+    <div class="about">
+      A nostalgic blast of a tactical hash & slash game.<br />
+      Fight, loot, upgrade, die ... repeat!
+    </div>
+    <Buy />
+    <Trailer />
 
-      <div class="about">
-        <div class="about__description">
-          Tackle challenging turn-based combat and let it rain tons of loot in
-          this refined retro-minimalist roguelite. Difficult, great soundtrack,
-          high replay value.
-        </div>
-      </div>
+    <div class="section">
+      <h2>Facts</h2>
+      <QuickFacts />
+    </div>
 
-      <Buy />
+    <div class="section">
+      <h2>Follow</h2>
+      <Follow />
+    </div>
 
-      <Trailer />
-
-      <div class="section">
-        <h2>Facts</h2>
-        <QuickFacts />
-      </div>
-
-      <div class="screenshots">
-        <h2>Screenshots</h2>
-        <div class="screenshots__container">
-          <Screenshot url="/img/01.png" />
-          <Screenshot url="/img/02.png" />
-          <Screenshot url="/img/03.png" />
-          <Screenshot url="/img/04.png" />
-          <Screenshot url="/img/05.png" />
-          <Screenshot url="/img/06.png" />
-          <Screenshot url="/img/07.png" />
-          <Screenshot url="/img/08.png" />
-        </div>
-      </div>
-
-      <div class="section">
-        <h2>Follow</h2>
-        <Follow />
-      </div>
-
-      <div class="footer">
-        <Navigation />
+    <div class="screenshots">
+      <h2>Screenshots</h2>
+      <div class="screenshots__container">
+        <Screenshot url="/img/01.png" />
+        <Screenshot url="/img/02.png" />
+        <Screenshot url="/img/03.png" />
+        <Screenshot url="/img/04.png" />
+        <Screenshot url="/img/05.png" />
+        <Screenshot url="/img/06.png" />
+        <Screenshot url="/img/07.png" />
+        <Screenshot url="/img/08.png" />
       </div>
     </div>
   </div>
@@ -53,7 +36,6 @@
 <script>
 import Buy from '~/components/Buy.vue';
 import Follow from '~/components/Follow.vue';
-import Navigation from '~/components/Navigation.vue';
 import QuickFacts from '~/components/QuickFacts.vue';
 import Screenshot from '~/components/Screenshot.vue';
 import Trailer from '~/components/Trailer.vue';
@@ -62,7 +44,6 @@ export default {
   components: {
     Buy,
     Follow,
-    Navigation,
     QuickFacts,
     Screenshot,
     Trailer
@@ -76,31 +57,18 @@ export default {
 </script>
 
 <style lang="scss">
-.logo {
-  width: 100%;
-  max-width: 512px;
-  margin-top: 40px;
-}
-
-.demo {
-  font-family: 'Wendy One', sans-serif;
-  font-size: 24px;
-}
-
 .about {
   width: 80vw;
   max-width: 520px;
-  margin: 0 auto 40px auto;
+  margin: 0 auto 50px auto;
+  color: #f3c05e;
+  text-shadow: 2px 2px 0 black;
+  font-size: 20px;
+  line-height: 1.5em;
+}
 
-  &__short {
-    font-size: 1.25em;
-  }
-
-  &__description {
-    text-align: justify;
-    margin: 1em 0;
-    font-weight: bold;
-  }
+ul.buy {
+  margin: 0 auto 50px auto;
 }
 
 .screenshots {

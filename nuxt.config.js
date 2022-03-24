@@ -28,7 +28,8 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Wendy+One&display=swap'
+        href:
+          'https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,700&display=swap'
       }
     ]
     /* favicons */

@@ -4,7 +4,7 @@
       <iframe
         width="560"
         height="315"
-        src="https://www.youtube-nocookie.com/embed/AfFijYV7BVk"
+        src="https://www.youtube-nocookie.com/embed/IwOry5Zq-P8?autoplay=1&mute=1&loop=1&playlist=IwOry5Zq-P8"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
@@ -21,7 +21,7 @@ export default {
 
 <style lang="scss">
 .trailer {
-  max-width: 720px;
+  max-width: 580px;
   margin: 0 auto;
 }
 
