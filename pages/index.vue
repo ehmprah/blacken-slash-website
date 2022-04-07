@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="about">
-      A nostalgic blast of a tactical hash & slash game.<br />
+      A nostalgic blast of tactical hack & slash action.<br />
       Fight, loot, upgrade, die ... repeat!
     </div>
     <Buy />
