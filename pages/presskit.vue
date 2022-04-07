@@ -81,13 +81,14 @@
       </div>
 
       <div class="logos">
-        <h2>Logos</h2>
+        <h2>Logos & Key Art</h2>
         <p><a href="/logo/blacken_slash_logos.zip">Download as .zip</a></p>
         <div class="logos__container">
-          <img class="logo" src="/logo/steam_vertical_capsule.png" />
-          <img class="logo" src="/logo/steam_capsule_main.png" />
-          <img class="logo" src="/logo/steam_capsule_header.png" />
-          <img class="logo" src="/logo/steam_library_logo.png" />
+          <img class="logo" src="/logo/blacken_slash_vertical_capsule.png" />
+          <img class="logo" src="/logo/blacken_slash_key_art_logo.png" />
+          <img class="logo" src="/logo/blacken_slash_logo_capsule.png" />
+          <img class="logo" src="/logo/blacken_slash_logo_transparent.png" />
+          <img class="logo" src="/logo/blacken_slash_key_art.png" />
         </div>
       </div>
 
