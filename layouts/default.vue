@@ -2,7 +2,10 @@
   <div class="container">
     <div>
       <a href="/" class="logo">
-        <img src="/logo/steam_library_logo.png" alt="Blacken Slash Logo" />
+        <img
+          src="/logo/blacken_slash_logo_transparent.png"
+          alt="Blacken Slash Logo"
+        />
       </a>
 
       <Nuxt />
