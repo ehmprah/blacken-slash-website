@@ -45,21 +45,26 @@
       <div class="text">
         <h2>Description</h2>
         <div class="text__description">
-          Blacken Slash fuses tactical turn-based combat and fast-paced hack,
-          slash and loot gameplay, sprinkled with roguelite elements and
-          enticing progression mechanics. Explore the story, play on your own
-          and perfect your gear across dozens of runs and see which difficulty
-          you can master – or compete with other players in an online ladder
-          where you start from scratch each week.
+          A tactical RPG fusing the best of roguelikes, turn-based tactics and
+          hack and slash games – made by a solo developer with a penchant for
+          minimalist designs.
         </div>
         <ul class="list">
-          <li>Minimalist – easy to learn</li>
-          <li>Difficult – hard to master</li>
-          <li>Short levels – short play sessions</li>
-          <li>An abundance of items</li>
-          <li>Various playstyles and builds</li>
-          <li>Challenging achievements</li>
-          <li>Weekly online leaderboard</li>
+          <li>Fight through bite-sized tactical puzzles</li>
+          <li>
+            Create powerful builds from a plethora of items which grant you
+            skills and can change gameplay mechanics
+          </li>
+          <li>Carry on your favorite items between runs in normal mode</li>
+          <li>
+            Start from scratch each week and compete with other players in the
+            online ladder mode
+          </li>
+          <li>Try various playstyles and hunt for challenging achievements</li>
+          <li>
+            Enjoy a lovingly crafted story of ridiculous computer nostalgia and
+            a blast of a retro soundtrack
+          </li>
         </ul>
       </div>
 

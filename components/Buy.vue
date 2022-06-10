@@ -1,18 +1,27 @@
 <template>
   <ul class="buy">
     <li>
-      <div>WISHLIST</div>
-      <div>July 22, 2022</div>
       <a
         class="badge"
         href="https://store.steampowered.com/app/1746560?utm_source=website"
       >
         <img src="/badges/steam.png" alt="Wishlist Blacken Slash on Steam" />
       </a>
+      <div>July 22, 2022</div>
     </li>
     <li>
-      <div>EARLY ACCESS</div>
-      <div>AVAILABLE NOW!</div>
+      <a
+        class="badge"
+        href="https://apps.apple.com/app/blacken-slash/id1604646442"
+      >
+        <img
+          src="/badges/app-store.png"
+          alt="Get Blacken Slash on the App Store"
+        />
+      </a>
+      <div>July 22, 2022</div>
+    </li>
+    <li>
       <a
         class="badge"
         href="https://play.google.com/store/apps/details?id=com.ehmprah.blackenslash"
@@ -22,26 +31,13 @@
           alt="Get Blacken Slash on Google Play"
         />
       </a>
+      <div>Available now!</div>
     </li>
     <li>
-      <div>EARLY ACCESS</div>
-      <div>AVAILABLE NOW!</div>
       <a class="badge" href="https://ehmprah.itch.io/blacken-slash">
         <img src="/badges/itchio.png" alt="Buy Blacken Slash on itch.io" />
       </a>
-    </li>
-    <li>
-      <div>TRY THE DEMO</div>
-      <div>July 22, 2022</div>
-      <a
-        class="badge"
-        href="https://apps.apple.com/app/blacken-slash-lite/id1605374559"
-      >
-        <img
-          src="/badges/app-store.png"
-          alt="Get Blacken Slash on the App Store"
-        />
-      </a>
+      <div>Available now!</div>
     </li>
   </ul>
 </template>

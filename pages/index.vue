@@ -1,21 +1,12 @@
 <template>
   <div>
     <div class="about">
-      A nostalgic blast of tactical hack & slash action.<br />
-      Fight, loot, upgrade, die ... repeat!
+      A tactical roguelite RPG where the items you choose define your character.
+      Create powerful builds from an abundance of loot as you try to save a
+      corrupted retro computer system in bite-sized tactical puzzles.
     </div>
     <Buy />
     <Trailer />
-
-    <div class="section">
-      <h2>Facts</h2>
-      <QuickFacts />
-    </div>
-
-    <div class="section">
-      <h2>Follow</h2>
-      <Follow />
-    </div>
 
     <div class="screenshots">
       <h2>Screenshots</h2>
@@ -30,13 +21,17 @@
         <Screenshot url="/img/08.png" />
       </div>
     </div>
+
+    <div class="section">
+      <h2>Follow</h2>
+      <Follow />
+    </div>
   </div>
 </template>
 
 <script>
 import Buy from '~/components/Buy.vue';
 import Follow from '~/components/Follow.vue';
-import QuickFacts from '~/components/QuickFacts.vue';
 import Screenshot from '~/components/Screenshot.vue';
 import Trailer from '~/components/Trailer.vue';
 
@@ -44,7 +39,6 @@ export default {
   components: {
     Buy,
     Follow,
-    QuickFacts,
     Screenshot,
     Trailer
   },
@@ -61,9 +55,9 @@ export default {
   width: 80vw;
   max-width: 520px;
   margin: 0 auto 50px auto;
-  color: #f3c05e;
+  color: #ff1690;
   text-shadow: 2px 2px 0 black;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5em;
 }
 
