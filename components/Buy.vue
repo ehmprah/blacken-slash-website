@@ -7,7 +7,6 @@
       >
         <img src="/badges/steam.png" alt="Wishlist Blacken Slash on Steam" />
       </a>
-      <div>July 22, 2022</div>
     </li>
     <li>
       <a
@@ -19,7 +18,6 @@
           alt="Get Blacken Slash on the App Store"
         />
       </a>
-      <div>July 22, 2022</div>
     </li>
     <li>
       <a
@@ -31,13 +29,6 @@
           alt="Get Blacken Slash on Google Play"
         />
       </a>
-      <div>Available now!</div>
-    </li>
-    <li>
-      <a class="badge" href="https://ehmprah.itch.io/blacken-slash">
-        <img src="/badges/itchio.png" alt="Buy Blacken Slash on itch.io" />
-      </a>
-      <div>Available now!</div>
     </li>
   </ul>
 </template>
@@ -56,7 +47,6 @@ ul.buy {
   list-style-type: none;
 
   li {
-    max-width: 200px;
     margin: 0 auto 20px auto;
     a.badge {
       display: block;

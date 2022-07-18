@@ -113,6 +113,12 @@
           </li>
           <li>
             <a
+              href="https://play.google.com/store/apps/details?id=com.ehmprah.blackenslash"
+              >Play Store</a
+            >
+          </li>
+          <li>
+            <a
               href="https://play.google.com/store/apps/details?id=com.ehmprah.blackenslash.demo"
               >Play Store (Demo)</a
             >
