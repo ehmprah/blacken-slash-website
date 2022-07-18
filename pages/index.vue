@@ -3,7 +3,7 @@
     <div class="about">
       A tactical roguelite RPG where the items you choose define your character.
       Create powerful builds from an abundance of loot as you try to save a
-      corrupted retro computer system in bite-sized tactical puzzles.
+      corrupted retro computer system in byte-sized tactical puzzles.
     </div>
     <Buy />
     <Trailer />
