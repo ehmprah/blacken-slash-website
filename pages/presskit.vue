@@ -94,7 +94,6 @@
           <img class="logo" src="/logo/blacken_slash_key_art_a.png" />
           <img class="logo" src="/logo/blacken_slash_key_art_b.png" />
           <img class="logo" src="/logo/blacken_slash_logo_transparent.png" />
-          <img class="logo" src="/logo/blacken_slash_key_art.png" />
         </div>
       </div>
 
