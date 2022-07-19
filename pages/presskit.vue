@@ -89,9 +89,10 @@
         <h2>Logos & Key Art</h2>
         <p><a href="/logo/blacken_slash_logos.zip">Download as .zip</a></p>
         <div class="logos__container">
-          <img class="logo" src="/logo/blacken_slash_vertical_capsule.png" />
-          <img class="logo" src="/logo/blacken_slash_key_art_logo.png" />
-          <img class="logo" src="/logo/blacken_slash_logo_capsule.png" />
+          <img class="logo" src="/logo/blacken_slash_1920x1080.png" />
+          <img class="logo" src="/logo/blacken_slash_box_art.png" />
+          <img class="logo" src="/logo/blacken_slash_key_art_a.png" />
+          <img class="logo" src="/logo/blacken_slash_key_art_b.png" />
           <img class="logo" src="/logo/blacken_slash_logo_transparent.png" />
           <img class="logo" src="/logo/blacken_slash_key_art.png" />
         </div>
