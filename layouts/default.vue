@@ -28,6 +28,23 @@ export default {
 </script>
 
 <style lang="scss">
+@font-face {
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 700;
+  src: url('/fonts/rubik-v21-latin-700italic.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('/fonts/rubik-v21-latin-700italic.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('/fonts/rubik-v21-latin-700italic.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('/fonts/rubik-v21-latin-700italic.woff')
+      format('woff'),
+    /* Modern Browsers */ url('/fonts/rubik-v21-latin-700italic.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */ url('/fonts/rubik-v21-latin-700italic.svg#Rubik')
+      format('svg'); /* Legacy iOS */
+}
+
 html,
 body,
 p,
